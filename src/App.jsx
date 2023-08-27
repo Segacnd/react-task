@@ -11,8 +11,8 @@ function App() {
 		<section className='wrapper'>
 			{currentTask === 1 ? <TechStack /> : <SecondTask />}
 
-			<button onClick={() => setCurrentTask(prev => prev + 1)}>Go to the next task</button>
-			<button onClick={() => setCurrentTask(prev => prev-1)}>Go to the prev task</button>
+			{/* <button onClick={() => setCurrentTask(prev => prev + 1)}>Go to the next task</button>
+			<button onClick={() => setCurrentTask(prev => prev-1)}>Go to the prev task</button> */}
 		</section>
 	);
 }
